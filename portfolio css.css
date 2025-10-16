@@ -1,0 +1,116 @@
+/* Basic Reset & Body */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Navigation Bar */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  color: white;
+  padding: 15px 30px;
+}
+
+nav ul {
+  list-style:disc;
+  display: flex;
+  gap: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* About Section */
+#about {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 100px;
+  background:burlywood;
+}
+.name-heading{
+    text-align: left;
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: #222;
+
+}
+.about-text {
+  max-width: 600px;
+}
+
+.about-text h2 {
+  margin-bottom: 10px;
+}
+
+.about-text p {
+  line-height: 1.6;
+  color: #555;
+}
+/* Skills section*/
+#skills {
+  padding: 40px;
+  background-color:aquamarine;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#skills h1 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 300px;
+  text-align: center;
+}
+
+.skills-list li {
+  background-color: #ff4c60;
+  color: white;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+/* Project Section */
+#projects {
+    margin-top: 20px;
+  padding: 40px;
+  background-color:coral;
+  text-align: center;
+}
+
+.project-card {
+  background:beige;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Contact Section */
+#contact {
+    margin-top: 20px;
+  padding: 50px;
+  text-align: center;
+  background-color: #333;
+  color: whitesmoke;
+}
